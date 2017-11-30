@@ -10,8 +10,6 @@
  */
 ?>
 
-	</div><!-- .site-content -->
-
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<?php
@@ -29,6 +27,8 @@
 </div><!-- .site -->
 
 <?php wp_footer(); ?>
+
+<script src="<?php echo get_template_directory_uri() . '/dist/js/app.js' ?>"></script>
 
 </body>
 </html>

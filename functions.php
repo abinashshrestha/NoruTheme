@@ -91,8 +91,11 @@ function noru_scripts()
         'collapse' => '<span class="screen-reader-text">' . __( 'collapse child menu', 'twentyfifteen' ) . '</span>',
     ) );*/
 
-    wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Sintony:400,700|Source+Sans+Pro:300i,600i,700', false );
+    wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Sintony:400,700|Source+Sans+Pro:300,300i,600i,700', false );
     wp_enqueue_style('noru-style', get_template_directory_uri() . '/dist/css/style.css', 'noru-style', null);
 }
 
 add_action('wp_enqueue_scripts', 'noru_scripts');
+
+/* Disable WordPress Admin Bar for all users but admins. */
+show_admin_bar(false);
