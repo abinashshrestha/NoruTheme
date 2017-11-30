@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>iconmonstr-shop-13</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-1225.000000, -2344.000000)" fill-rule="nonzero" fill="#0BB26C">
+            <g id="Our-Approach" transform="translate(-4.000000, 2104.000000)">
+                <g id="Group-6" transform="translate(879.000000, 240.000000)">
+                    <g id="Partnership" transform="translate(350.000000, 0.000000)">
+                        <g id="iconmonstr-shop-13">
+                            <path d="M25,22.5 L25,19.755 L27.6175,7.5 L32.38,7.5 L35,19.75 L35,22.495 C35,25.1625 32.6675,27.5 30,27.5 C27.3325,27.5 25,25.1675 25,22.5 Z M37.5,22.5 C37.5,25.1675 39.835,27.5 42.5025,27.5 C45.17,27.5 47.5,25.4175 47.5,22.75 L47.5,20.005 L40.01,7.5 L35.1525,7.5 L37.5,19.755 L37.5,22.5 Z M12.5,22.67 C12.5,25.3375 14.8325,27.5 17.5,27.5 C20.1675,27.5 22.5,25.3375 22.5,22.67 L22.5,19.9275 L24.8475,7.5 L19.99,7.5 L12.5,19.9275 L12.5,22.67 Z M2.5,30 L57.5,30 L57.5,60 L2.5,60 L2.5,30 Z M7.5,50 L52.5,50 L52.5,35 L7.5,35 L7.5,50 Z M10,22.67 L10,19.9275 L17.2175,7.5 L12.1825,7.5 L0,19.9275 L0,22.6725 C0,25.3375 2.3325,27.5 5,27.5 C7.6675,27.5 10,25.3375 10,22.67 L10,22.67 Z M47.8175,7.5 L42.7825,7.5 L50,19.755 L50,22.5 C50,25.1675 52.3325,27.5 55,27.5 C57.6675,27.5 60,25.3375 60,22.67 L60,19.9275 L47.8175,7.5 Z M47.5,0 L12.5,0 L12.5,5 L47.5,5 L47.5,0 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
