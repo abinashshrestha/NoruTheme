@@ -1,0 +1,39 @@
+.svg-icon {
+  height: 1rem;
+  fill: currentColor;
+  position: relative;
+  width: 1rem;
+}
+
+.svg-icon--fluid {
+  height: auto;
+  max-height: 100%;
+  width: 100%;
+}
+
+@mixin svg-size ($name, $size) {
+  .svg-icon--size-#{$name} {
+    height: $size;
+    max-height: 100%;
+    width: $size;
+  }
+}
+
+@include svg-size('xs', .75rem);
+@include svg-size('sm', 1.5rem);
+@include svg-size('md', 3.75rem);
+@include svg-size('lg', 6rem);
+
+@mixin svg-color($name, $color) {
+  .svg-icon--#{$name} {
+    fill: $color;
+  }
+
+  a .svg-icon--#{$name} {
+    @include hover-focus {
+      fill: lighten($color, 12%);
+    }
+  }
+}
+
+@include svg-color('green', $green);
