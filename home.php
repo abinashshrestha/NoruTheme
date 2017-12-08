@@ -13,7 +13,7 @@ get_header(); ?>
     <div class="swiper-wrapper">
         <div class="swiper-slide">
             <div class="swiper-slide__content"
-                 style="background-image: url(<?php echo get_template_directory_uri() . "/images/HongKong.jpg" ?>);">
+                 style="background-image: url(<?php echo get_template_directory_uri() . "/images/dubai.jpg" ?>);">
                 <div class="row align-items-center justify-content-center h-100">
                     <div class="swiper-slide__box d-flex align-items-center">
                         <div class="w-100">
@@ -22,8 +22,7 @@ get_header(); ?>
                             <h1 class="swiper-slide__heading swiper-slide__heading--border-bottom text-center text-white text-uppercase">
                                 Discovery</h1>
                             <p class="text-white font-italic text-center mt-5">Even the best products in pharmacy, will
-                                die a
-                                slow natural death, if no one knows about them!</p>
+                                die a slow natural death, if no one knows about them!</p>
                         </div>
                     </div>
                 </div>
@@ -40,8 +39,7 @@ get_header(); ?>
                             <h1 class="swiper-slide__heading swiper-slide__heading--border-bottom text-center text-white text-uppercase">
                                 Discovery</h1>
                             <p class="text-white font-italic text-center mt-5">Even the best products in pharmacy, will
-                                die a
-                                slow natural death, if no one knows about them!</p>
+                                die a slow natural death, if no one knows about them!</p>
                         </div>
                     </div>
                 </div>
@@ -56,11 +54,8 @@ get_header(); ?>
     <div class="row">
         <div class="col-sm-12 col-md-4">
             <h1 class="stroke-header stroke-header--top text-uppercase">About</h1>
-            <p>Noru Pharma is a pharmaceutical company which works with pharmacy and personal
-                health chains
-                in
-                Australia,
-                New Zealand, Singapore, Hong Kong and the UK.</p>
+            <p>Noru Pharma is a pharmaceutical company which works with pharmacy and personal health chains in
+                Australia, New Zealand, Singapore, Hong Kong and the UK.</p>
             <p>Noru provides best in class product solutions for disease categories which remain under satisfied.</p>
         </div>
         <div class="col-sm-12 col-md-7 ml-md-auto mt-sm-3 mt-md-5">
@@ -70,8 +65,8 @@ get_header(); ?>
             <div class="my-5">
                 <span class="align-middle mr-4"
                       style="display: inline-block; width: 78px; height:78px">
-                    <svg title="globe" class="svg-fluid svg-green" role="img">
-                        <use xlink:href="<?php echo get_template_directory_uri() . "/svg/icons.svg#globe" ?>"/>
+                    <svg title="globe" class="svg-icon svg-icon--fluid svg-icon--green" role="img">
+                        <use xlink:href="#globe"/>
                     </svg>
                 </span>
 
@@ -79,69 +74,64 @@ get_header(); ?>
             </div>
             <p class="text-muted">Noru is focused on ENT, Dermatology and Personal Health.</p>
             <p class="text-muted">The Management Team has built successful brands in OTC pharma in Australia, New
-                Zealand and
-                Singapore.</p>
+                Zealand and Singapore.</p>
         </div>
     </div>
 </article>
 <section class="bg-light py-5">
     <div class="container">
         <h1 class="text-center text-uppercase stroke-header stroke-header--bottom">Our Brands</h1>
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-sm-12 col-md-6 col-lg-4 py-3">
-                <div class="card">
-                    <div class="card-body">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri() . "/images/wartfree.png" ?>"
+                <a href="<?php echo get_permalink(1); ?>" class="card card--float">
+                    <span class="card-body">
+                        <img class="img-fluid"
+                             src="<?php echo get_template_directory_uri() . "/images/wartfree.png" ?>"
                              alt="">
-                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the
-                            bulk of
-                            the card's content.</p>
-                    </div>
-                </div>
+                        <span class="card-text mt-3 w-100">Some quick example text to build on the card title and make up the
+                            bulk of the card's content.</span>
+                    </span>
+                </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 py-3">
-                <div class="card">
+                <a href="" class="card card--float">
                     <div class="card-body">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri() . "/images/audisol.png" ?>"
                              alt="">
-                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the
-                            bulk of
-                            the card's content.</p>
+                        <span class="card-text mt-3 w-100">Some quick example text to build on the card title and make up the
+                            bulk of the card's content.</span>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 py-3">
-                <div class="card">
+                <a href="" class="card card--float">
                     <div class="card-body">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri() . "/images/snorel.png" ?>"
                              alt="">
-                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the
-                            bulk of
-                            the card's content.</p>
+                        <span class="card-text mt-3 w-100">Some quick example text to build on the card title and make up the
+                            bulk of the card's content.</span>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 py-3">
-                <div class="card">
-                    <div class="card-body">
+                <a href="" class="card card--float">
+                    <span class="card-body">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri() . "/images/klear.png" ?>"
                              alt="">
-                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the
-                            bulk of
-                            the card's content.</p>
-                    </div>
-                </div>
+                        <span class="card-text mt-3 w-100">Some quick example text to build on the card title and make up the
+                            bulk of the card's content.</span>
+                    </span>
+                </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 py-3">
-                <div class="card">
-                    <div class="card-body">
+                <a href="" class="card card--float">
+                    <span class="card-body">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri() . "/images/pronail.png" ?>"
                              alt="">
-                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the
-                            bulk of
-                            the card's content.</p>
-                    </div>
-                </div>
+                        <span class="card-text mt-3 w-100">Some quick example text to build on the card title and make up the
+                            bulk of the card's content.</span>
+                    </span>
+                </a>
             </div>
         </div>
     </div>
@@ -155,8 +145,8 @@ get_header(); ?>
                     <div class="row">
                         <div class="col-sm-12 col-md-6 mb-4">
                             <div>
-                                <svg title="globe" class="svg-size-md svg-green" role="img">
-                                    <use xlink:href="<?php echo get_template_directory_uri() . "/svg/icons.svg#globe-2" ?>"/>
+                                <svg title="globe" class="svg-icon svg-icon--size-md svg-icon--green" role="img">
+                                    <use xlink:href="#globe-2"/>
                                 </svg>
                             </div>
                             <h4 class="mt-3">Global Growth Platform</h4>
@@ -164,8 +154,8 @@ get_header(); ?>
                         </div>
                         <div class="col-sm-12 col-md-6 mb-4">
                             <div>
-                                <svg title="shop" class="svg-size-md svg-green" role="img">
-                                    <use xlink:href="<?php echo get_template_directory_uri() . "/svg/icons.svg#shop" ?>"/>
+                                <svg title="shop" class="svg-icon svg-icon--size-md svg-icon--green" role="img">
+                                    <use xlink:href="#shop"/>
                                 </svg>
                             </div>
                             <h4 class="mt-3">Partnership with Retail Chains</h4>
@@ -174,8 +164,8 @@ get_header(); ?>
                         </div>
                         <div class="col-sm-12 col-md-6 mb-4">
                             <div>
-                                <svg title="megaphone" class="svg-size-md svg-green" role="img">
-                                    <use xlink:href="<?php echo get_template_directory_uri() . "/svg/icons.svg#megaphone" ?>"/>
+                                <svg title="megaphone" class="svg-icon svg-icon--size-md svg-icon--green" role="img">
+                                    <use xlink:href="#megaphone"/>
                                 </svg>
                             </div>
                             <h4 class="mt-3">Innovative OTC Brands</h4>
@@ -184,12 +174,21 @@ get_header(); ?>
                         </div>
                         <div class="col-sm-12 col-md-6 mb-4">
                             <div>
-                                <svg title="chart" class="svg-size-md svg-green" role="img">
-                                    <use xlink:href="<?php echo get_template_directory_uri() . "/svg/icons.svg#chart" ?>"/>
+                                <svg title="chart" class="svg-icon svg-icon--size-md svg-icon--green" role="img">
+                                    <use xlink:href="#chart"/>
                                 </svg>
                             </div>
                             <h4 class="mt-3">Growth</h4>
                             <p class="text-muted">Organic and acquisition</p>
+                        </div>
+                        <div class="col-sm-12 col-md-6 mb-4">
+                            <div>
+                                <svg title="sound wave" class="svg-icon svg-icon--size-md svg-icon--green" role="img">
+                                    <use xlink:href="#sound-wave"/>
+                                </svg>
+                            </div>
+                            <h4 class="mt-3">Marketing Buzz</h4>
+                            <p class="text-muted">[Text Here]</p>
                         </div>
                     </div>
                 </div>
@@ -207,8 +206,9 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-sm-12 col-md-6 mb-4">
                         <div class="media align-items-center">
-                            <svg title="History" class="svg-size-md svg-green mr-4 mb-2" role="img">
-                                <use xlink:href="<?php echo get_template_directory_uri() . "/svg/icons.svg#history" ?>"/>
+                            <svg title="History" class="svg-icon svg-icon--size-md svg-icon--green mr-4 mb-2"
+                                 role="img">
+                                <use xlink:href="#history"/>
                             </svg>
                             <div class="media-body">
                                 <h4 class="mt-0">History</h4>
@@ -220,8 +220,9 @@ get_header(); ?>
                     </div>
                     <div class="col-sm-12 col-md-6 mb-4">
                         <div class="media align-items-center">
-                            <svg title="Capital" class="svg-size-md svg-green mr-4 mb-2" role="img">
-                                <use xlink:href="<?php echo get_template_directory_uri() . "/svg/icons.svg#dollar" ?>"/>
+                            <svg title="Capital" class="svg-icon svg-icon--size-md svg-icon--green mr-4 mb-2"
+                                 role="img">
+                                <use xlink:href="#dollar"/>
                             </svg>
                             <div class="media-body">
                                 <h4 class="mt-0">Capital</h4>
@@ -233,8 +234,9 @@ get_header(); ?>
                     </div>
                     <div class="col-sm-12 col-md-6 mb-4">
                         <div class="media align-items-center">
-                            <svg title="Logistics" class="svg-size-md svg-green mr-4 mb-2" role="img">
-                                <use xlink:href="<?php echo get_template_directory_uri() . "/svg/icons.svg#logistics" ?>"/>
+                            <svg title="Logistics" class="svg-icon svg-icon--size-md svg-icon--green mr-4 mb-2"
+                                 role="img">
+                                <use xlink:href="#logistics"/>
                             </svg>
                             <div class="media-body">
                                 <h4 class="mt-0">Logistics</h4>
@@ -246,8 +248,8 @@ get_header(); ?>
                     </div>
                     <div class="col-sm-12 col-md-6 mb-4">
                         <div class="media align-items-center">
-                            <svg title="Supply" class="svg-size-md svg-green mr-4 mb-2" role="img">
-                                <use xlink:href="<?php echo get_template_directory_uri() . "/svg/icons.svg#supply" ?>"/>
+                            <svg title="Supply" class="svg-icon svg-icon--size-md svg-icon--green mr-4 mb-2" role="img">
+                                <use xlink:href="#supply"/>
                             </svg>
                             <div class="media-body">
                                 <h4 class="mt-0">Supply</h4>
@@ -260,7 +262,8 @@ get_header(); ?>
                 </div>
             </div>
             <div class="offset-md-1 col-8 col-md-5 col-lg-3 mx-auto mb-4 order-1 order-lg-2 align-self-center">
-                <svg class="svg-fluid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                <svg class="svg-icon svg-icon--fluid" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink"
                      viewBox="0 0 1591.94 1591.94">
                     <defs>
                         <style>.cls-1 {
@@ -374,7 +377,7 @@ get_header(); ?>
 </section>
 <section class="bg-light py-5">
     <div class="container-fluid">
-        <h1 class="stroke-header stroke-header--bottom text-uppercase text-center">Our Global Partners</h1>
+        <h1 class="stroke-header stroke-header--bottom text-uppercase text-center">Our Global Retail Partners</h1>
         <div class="row align-items-center">
             <div class="col-6 col-md mt-4 px-4">
                 <img src="<?php echo get_template_directory_uri() . "/images/cincottadiscountchemist.png" ?>"

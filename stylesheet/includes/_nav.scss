@@ -1,3 +1,7 @@
+.navbar {
+  background-color: rgba($white, .9)
+}
+
 .navbar-nav {
   .nav-link {
     font-weight: $font-weight-semi-bold;
@@ -13,7 +17,7 @@
     .active > .nav-link,
     .nav-link.show,
     .nav-link.active {
-      box-shadow: 0px 2px 0 #dbdbdb;
+      box-shadow: 0px 2px 0 $green;
       color: $navbar-light-active-color;
     }
   }
@@ -47,4 +51,8 @@
 .navbar-brand {
   font-family: $font-family-heading;
   font-weight: $font-weight-bold;
+}
+
+.navbar + *:not(.swiper-container) {
+  margin-top: $navbar-height;
 }
