@@ -26,7 +26,12 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <h2 class="sr-only">Noru Navigation</h2>
     <div class="container">
-        <a class="navbar-brand" href="#">Noru Pharma</a>
+        <a class="navbar-brand d-flex align-items-center" href="<?php echo site_url(); ?>">
+            <svg class="svg-icon svg-icon--size-nav-logo mr-2">
+                <use xlink:href="#noru-logo" />
+            </svg>
+            <?php echo get_bloginfo('name'); ?>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

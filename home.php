@@ -198,6 +198,11 @@ get_header(); ?>
         </div>
     </div>
 </section>
+<section class="container-fluid py-4 bg-dark">
+    <div class="row justify-content-center">
+        <?php echo do_shortcode('[Best_Wordpress_Gallery id="4" gal_title="Marketing Buzz"]');?>
+    </div>
+</section>
 <section class="py-5">
     <div class="container">
         <h1 class="stroke-header stroke-header--top text-uppercase">Our Credibility</h1>

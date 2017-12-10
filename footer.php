@@ -14,32 +14,37 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4">
-                <a href="#" class="navbar-brand text-white">Noru Pharma</a>
-                <ul class="list-inline">
+                <a href="<?php echo site_url(); ?>" class="navbar-brand text-white d-flex align-items-center">
+                    <svg class="svg-icon svg-icon--size-nav-logo mr-2">
+                        <use xlink:href="#noru_logo_white" />
+                    </svg>
+                    <?php echo get_bloginfo('name'); ?>
+                </a>
+                <ul class="list-inline mt-3">
                     <li class="list-inline-item">
                         <a href="#">
-                            <svg title="globe" class="svg-icon svg-icon--size-sm svg-icon--green" role="img">
+                            <svg title="globe" class="svg-icon svg-icon--size-sm svg-icon--white" role="img">
                                 <use xlink:href="#icon-facebook"/>
                             </svg>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a href="#">
-                            <svg title="globe" class="svg-icon svg-icon--size-sm svg-icon--green" role="img">
+                            <svg title="globe" class="svg-icon svg-icon--size-sm svg-icon--white" role="img">
                                 <use xlink:href="#icon-twitter"/>
                             </svg>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a href="#">
-                            <svg title="globe" class="svg-icon svg-icon--size-sm svg-icon--green" role="img">
+                            <svg title="globe" class="svg-icon svg-icon--size-sm svg-icon--white" role="img">
                                 <use xlink:href="#icon-youtube"/>
                             </svg>
                         </a>
                     </li>
                     <li class="list-inline-item">
                         <a href="#">
-                            <svg title="globe" class="svg-icon svg-icon--size-sm svg-icon--green" role="img">
+                            <svg title="globe" class="svg-icon svg-icon--size-sm svg-icon--white" role="img">
                                 <use xlink:href="#icon-linkedin"/>
                             </svg>
                         </a>
