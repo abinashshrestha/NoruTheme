@@ -23,6 +23,7 @@
 @include svg-size('sm', 1.5rem);
 @include svg-size('md', 3.75rem);
 @include svg-size('lg', 6rem);
+@include svg-size('nav-logo', 2.5rem);
 
 @mixin svg-color($name, $color) {
   .svg-icon--#{$name} {
@@ -37,3 +38,4 @@
 }
 
 @include svg-color('green', $green);
+@include svg-color('white', $white);
