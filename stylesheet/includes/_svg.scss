@@ -37,5 +37,6 @@
   }
 }
 
+@include svg-color('blue', $blue);
 @include svg-color('green', $green);
 @include svg-color('white', $white);
