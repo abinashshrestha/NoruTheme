@@ -32,7 +32,7 @@ $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-200;
-$dark:          $gray-800 !default;
+$dark:          $gray-900;
 
 $theme-colors: ();
 $theme-colors: map-merge((
@@ -122,3 +122,23 @@ $navbar-brand-font-size:            $h4-font-size;
 $navbar-height:                     60px;
 
 $navbar-brand-padding-y:            0;
+
+// Cards
+
+$card-spacer-y:                     .75rem !default;
+$card-spacer-x:                     1.25rem !default;
+$card-border-width:                 0;
+$card-border-radius:                0;
+$card-border-color:                 transparent;
+$card-inner-border-radius:          0;
+$card-cap-bg:                       rgba($black, .03) !default;
+$card-bg:                           $white !default;
+
+$card-img-overlay-padding:          1.25rem !default;
+
+$card-group-margin:                 ($grid-gutter-width / 2) !default;
+$card-deck-margin:                  $card-group-margin !default;
+
+$card-columns-count:                3 !default;
+$card-columns-gap:                  1.25rem !default;
+$card-columns-margin:               $card-spacer-y !default;

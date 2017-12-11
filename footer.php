@@ -69,17 +69,6 @@
             <div class="col-12 col-md-6 col-lg-4"></div>
         </div>
     </div>
-    <div class="site-info">
-        <?php
-        /**
-         * Fires before the Twenty Fifteen footer text for footer customization.
-         *
-         * @since Twenty Fifteen 1.0
-         */
-        do_action('twentyfifteen_credits');
-        ?>
-        <a href="<?php echo esc_url(__('https://wordpress.org/', 'twentyfifteen')); ?>"><?php printf(__('Proudly powered by %s', 'twentyfifteen'), 'WordPress'); ?></a>
-    </div><!-- .site-info -->
 </footer><!-- .site-footer -->
 
 </div><!-- .site -->
