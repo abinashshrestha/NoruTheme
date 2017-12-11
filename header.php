@@ -28,7 +28,7 @@
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="<?php echo site_url(); ?>">
             <svg class="svg-icon svg-icon--size-nav-logo mr-2">
-                <use xlink:href="#noru-logo" />
+                <use xlink:href="#noru_logo" />
             </svg>
             <?php echo get_bloginfo('name'); ?>
         </a>

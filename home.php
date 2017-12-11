@@ -200,7 +200,7 @@ get_header(); ?>
 </section>
 <section class="container-fluid py-4 bg-dark">
     <div class="row justify-content-center">
-        <?php echo do_shortcode('[Best_Wordpress_Gallery id="4" gal_title="Marketing Buzz"]');?>
+        <?php echo do_shortcode('[vimeography id="2"]	'); ?>
     </div>
 </section>
 <section class="py-5">
@@ -435,6 +435,124 @@ get_header(); ?>
             <div class="col">
                 <img src="<?php echo get_template_directory_uri() . "/images/Global_Market.png" ?>" class="img-fluid"
                      alt="Noru Pharma Global Market">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-light">
+    <div class="container py-5">
+        <h1 class="stroke-header stroke-header--bottom text-uppercase text-center">Contact Us</h1>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-4">
+                <div class="card card--float h-100">
+                    <div class="card-body text-center">
+                        <img class="img-fluid rounded-circle col-8 p-0"
+                             src="<?php echo get_template_directory_uri() . "/images/portrait.jpg" ?>"
+                             alt="Generic placeholder image">
+                        <div class="mt-3">
+                            <h4 class="card-title text-uppercase">Australia</h4>
+                            <p class="card-text">Noru Pharma
+                                <br/>Suite 10/50
+                                <br/>Victoria Road
+                                <br/>Drummoyne NSW 2047
+                            </p>
+                            <p class="card-text">
+                                <b class="font-weight-bold">Jas Khara</b>
+                                <br/><i class="fa fa-call"></i>+61 (0) 447 003 636
+                                <br/><a href="mailto:info@noru.com.au">info@noru.com.au</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-4">
+                <div class="card card--float h-100">
+                    <div class="card-body text-center">
+                        <img class="img-fluid rounded-circle col-8 p-0"
+                             src="<?php echo get_template_directory_uri() . "/images/portrait-3.jpeg" ?>"
+                             alt="Generic placeholder image">
+                        <div class="mt-3">
+                            <h4 class="card-title text-uppercase">Singapore</h4>
+                            <p class="card-text">Noru Pharma Pte Ltd
+                                <br/>29 Jalan Demak
+                                <br/>Singapore 488975
+                            </p>
+                            <p class="card-text">
+                                <b class="font-weight-bold">Lesley</b>
+                                <br/><i class="fa fa-call"></i>+65 6323 4833
+                                <br/>C/O Nezon Marketing
+                                <br/><a href="mailto:info@noru.com.au">info@noru.com.au</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-4">
+                <div class="card card--float h-100">
+                    <div class="card-body text-center">
+                        <img class="img-fluid rounded-circle col-8 p-0"
+                             src="<?php echo get_template_directory_uri() . "/images/portrait-2.jpg" ?>"
+                             alt="Generic placeholder image">
+                        <div class="mt-3">
+                            <h4 class="card-title text-uppercase">New Zealand</h4>
+                            <p class="card-text">Noru Pharma Ltd
+                                <br/>48B Arundel Street
+                                <br/>Hillsborough Auckland 1041
+                                <br/>New Zealand
+                            </p>
+                            <p class="card-text">
+                                <b class="font-weight-bold">Jas Khara</b>
+                                <br/><i class="fa fa-call"></i>+61 (0) 447 003 636
+                                <br/><a href="mailto:info@noru.com.au">info@noru.com.au</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 d-none d-lg-block"></div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-4">
+                <div class="card card--float h-100">
+                    <div class="card-body text-center">
+                        <img class="img-fluid rounded-circle col-8 p-0"
+                             src="<?php echo get_template_directory_uri() . "/images/portrait-4.jpeg" ?>"
+                             alt="Generic placeholder image">
+                        <div class="mt-3">
+                            <h4 class="card-title text-uppercase">Hong Kong</h4>
+                            <p class="card-text">Noru Pharma Limited
+                                <br/>Flat U, 7th / F
+                                <br/>Valiant Industrial Centre
+                                <br/>2-12 Au Pui Wan Street
+                                <br/>Fotan, NT
+                            </p>
+                            <p class="card-text">
+                                <b class="font-weight-bold">Alan Ho</b>
+                                <br/><i class="fa fa-call"></i>+852 9255 5543
+                                <br/><a href="mailto:info@noru.com.au">alan@noru.hk</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-4">
+                <div class="card card--float h-100">
+                    <div class="card-body text-center">
+                        <img class="img-fluid rounded-circle col-8 p-0"
+                             src="<?php echo get_template_directory_uri() . "/images/portrait-5.jpeg" ?>"
+                             alt="Generic placeholder image">
+                        <div class="mt-3">
+                            <h4 class="card-title text-uppercase">United Kingdom</h4>
+                            <p class="card-text">MediCity Nottingham
+                                <br/>Thane Road
+                                <br/>Nottingham NG90 6BH
+                            </p>
+                            <p class="card-text">
+                                <b class="font-weight-bold">Ian Baker</b>
+                                <br/><i class="fa fa-call"></i>+44 (0) 7783 339 773
+                                <br/><a href="mailto:info@noru.com.au">ian@noru.co.uk</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
