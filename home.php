@@ -9,7 +9,7 @@
  */
 
 get_header(); ?>
-<section class="swiper-container">
+<section class="swiper-container" id="home">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
             <div class="swiper-slide__content"
@@ -50,7 +50,7 @@ get_header(); ?>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
 </section>
-<article class="container py-5">
+<article class="container py-6" id="about">
     <div class="row">
         <div class="col-sm-12 col-md-4">
             <h1 class="stroke-header stroke-header--top text-uppercase">About</h1>
@@ -78,7 +78,7 @@ get_header(); ?>
         </div>
     </div>
 </article>
-<section class="bg-light py-5">
+<section class="bg-light py-6" id="brands">
     <div class="container">
         <h1 class="text-center text-uppercase stroke-header stroke-header--bottom">Our Brands</h1>
         <div class="row justify-content-center">
@@ -136,7 +136,7 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<section class="py-5">
+<section class="py-6">
     <div class="container-fluid">
         <div class="row align-items-center position-relative">
             <div class="container">
@@ -203,7 +203,7 @@ get_header(); ?>
         <?php echo do_shortcode('[vimeography id="2"]	'); ?>
     </div>
 </section>
-<section class="py-5">
+<section class="py-6">
     <div class="container">
         <h1 class="stroke-header stroke-header--top text-uppercase">Our Credibility</h1>
         <div class="row">
@@ -380,7 +380,7 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<section class="bg-light py-5">
+<section class="bg-light py-6">
     <div class="container-fluid">
         <h1 class="stroke-header stroke-header--bottom text-uppercase text-center">Our Global Retail Partners</h1>
         <div class="row align-items-center">
@@ -429,7 +429,7 @@ get_header(); ?>
     </div>
 </section>
 <section>
-    <div class="container py-5">
+    <div class="container py-6">
         <h1 class="stroke-header stroke-header--top">Our Global Market</h1>
         <div class="row">
             <div class="col">
@@ -439,8 +439,8 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<section class="bg-light">
-    <div class="container py-5">
+<section class="bg-light py-6" id="contact">
+    <div class="container">
         <h1 class="stroke-header stroke-header--bottom text-uppercase text-center">Contact Us</h1>
         <div class="row justify-content-center">
             <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-4">
