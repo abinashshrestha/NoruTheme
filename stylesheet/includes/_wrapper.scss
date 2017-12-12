@@ -1,3 +1,6 @@
 .full-height-page-container {
   min-height: calc(75vh - #{$navbar-height});
 }
+.overflow-hidden {
+  overflow: hidden;
+}

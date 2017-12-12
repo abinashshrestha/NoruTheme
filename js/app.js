@@ -24,9 +24,35 @@ $('body').scrollspy({
 
 const navMenuToggler = document.querySelector('#nav-menu-toggler');
 const navbar = document.querySelector('#navbar');
+const navbarLink = document.querySelectorAll('.js-navbar-link');
+const body = document.querySelector('body');
+const pageContainer = document.querySelector('.page-container');
+
+function navbarToggle() {
+    navbar.classList.toggle('navbar-collapse--show');
+    body.classList.toggle('overflow-hidden');
+}
 
 navMenuToggler.addEventListener('click', () => {
-    navbar.classList.toggle('collapse');
+    navbarToggle();
+});
+
+navbarLink.forEach((i) => {
+    i.addEventListener('click', () => {
+        navbarToggle();
+    });
+});
+
+pageContainer.addEventListener('click', () => {
+    if (body.classList.contains('overflow-hidden')) {
+        navbarToggle();
+    }
+});
+
+pageContainer.addEventListener('touchstart', () => {
+    if (body.classList.contains('overflow-hidden')) {
+        navbarToggle();
+    }
 });
 
 // landingSwiper;
