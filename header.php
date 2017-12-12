@@ -21,9 +21,9 @@
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class('position-relative'); ?> data-spy="scroll" data-target="#navbar">
+<body <?php body_class('position-relative'); ?> <?php echo (is_front_page() ? 'data-spy="scroll" data-target="#navbar"' : '') ?>>
 <h1 class="sr-only">Noru Pharma</h1>
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+<nav class="navbar navbar-expand-sm navbar-light fixed-top">
     <h2 class="sr-only">Noru Navigation</h2>
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="<?php echo site_url(); ?>">
@@ -36,21 +36,22 @@
                 aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbar">
+        <div class="navbar-collapse justify-content-end" id="navbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link js-navbar-link" href="<?php echo (is_front_page() ? '#home' : site_url() . '#home') ?>">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link js-navbar-link" href="<?php echo (is_front_page() ? '#about' : site_url() . '#about') ?>">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#brands">Brands</a>
+                    <a class="nav-link js-navbar-link" href="<?php echo (is_front_page() ? '#brands' : site_url() . '#brands') ?>">Brands</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link js-navbar-link" href="<?php echo (is_front_page() ? '#contact' : site_url() . '#contact') ?>">Contact</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+<div class="page-container <?php echo (is_front_page() ? '' : 'page-container--margin') ?>">
