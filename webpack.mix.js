@@ -1,12 +1,20 @@
 const mix = require('laravel-mix');
+const webpack = require('webpack');
 
 const Paths = {
     bootstrap: './node_modules/bootstrap/',
     swiper: './node_modules/swiper/dist/css/'
-}
+};
 
 mix.sass('./stylesheet/style.scss', './dist/css/', { includePaths: [Paths.bootstrap + 'scss', Paths.swiper] })
     .webpackConfig({
+        plugins: [
+            new webpack.ProvidePlugin({
+                '$': 'jquery',
+                'jQuery': 'jquery',
+                'window.jQuery': 'jquery',
+            }),
+        ],
         module: {
             rules: [
                 {
